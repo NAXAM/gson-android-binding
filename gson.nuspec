@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Google.Gson</id>
+        <version>2.8.0</version>
+        <description>Xamarin Binding Library - Google Gson</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Google Gson</title>
+        <releaseNotes>Google Gson v2.8.0</releaseNotes>
+        <summary>Xamarin Binding Library - Google Gson</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xam-gson</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, gson</tags>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Google.Gson/bin/Release/Naxam.Google.Gson.dll" target="lib/MonoAndroid10/Naxam.Google.Gson.dll" />
+    </files>
+</package>
