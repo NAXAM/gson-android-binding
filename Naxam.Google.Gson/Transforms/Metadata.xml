@@ -10,10 +10,9 @@
 	<remove-node path="/api/package[@name='com.google.gson.internal']" />
 	<remove-node path="/api/package[@name='com.google.gson.internal.bind']" />
 	<remove-node path="/api/package[@name='com.google.gson.internal.bind.util']" />
-
-	<attr path="/api/package[@name='com.google.gson']" name="managedName" >Google.Gson</attr>
-  <attr path="/api/package[@name='com.google.gson.annotations']" name="managedName" >Google.Gson.Annotations</attr>
-  <attr path="/api/package[@name='com.google.gson.stream']" name="managedName" >Google.Gson.Stream</attr>
-  <attr path="/api/package[@name='com.google.gson.reflect']" name="managedName" >Google.Gson.Reflect</attr>
+	<attr path="/api/package[@name='com.google.gson']" name="managedName">Google.Gson</attr>
+	<attr path="/api/package[@name='com.google.gson.annotations']" name="managedName">Google.Gson.Annotations</attr>
+	<attr path="/api/package[@name='com.google.gson.stream']" name="managedName">Google.Gson.Stream</attr>
+	<attr path="/api/package[@name='com.google.gson.reflect']" name="managedName">Google.Gson.Reflect</attr>
 	<attr path="/api/package[@name='com.google.gson']/class[@name='JsonStreamParser']/method[@name='next']" name="managedReturn">Java.Lang.Object</attr>
 </metadata>
